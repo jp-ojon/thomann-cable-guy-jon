@@ -35,25 +35,28 @@ Jon Paulo Ojon
 * dotenv
 
 ## Test Data
-- Please update the following files accordingly.
-- test-data-file.json under test-data folder
+- test-data-file.json under test-data folder to be used for future test scenarios that need specific test data input.
 
 ## Running Tests
 Use the following commands in any terminal or cmd line to run tests in different browsers:
-1. npm run test:chromium    : run all UI tests for chromium browser only, set to serial and will run 1 by 1 because of login cookies.
-2. npm run test:firefox     : run all UI tests for firefox browser only, set to serial and will run 1 by 1 because of login cookies.
-3. npm run test:webkit      : run all UI tests for webkit browser only, set to serial and will run 1 by 1 because of login cookies.
-4. npm run test:all         : run all tests across all browsers configured under playwright.config.ts -> projects (Not recommended)
+1. npm run test:chromium    : run all UI tests for chromium browser only.
+2. npm run test:firefox     : run all UI tests for firefox browser only.
+3. npm run test:webkit      : run all UI tests for webkit browser only.
+4. npm run test:all         : run all tests across all browsers configured under playwright.config.ts -> projects (Not recommended).
 
 ## Configuration
 Configuration can be changed under playwright.config.ts
 - headless                  : Set to `false` to run the browser with UI or `true` to run in headless mode.
 - fullyParallel             : Set to `true` for running tests in parallel.
 - timeout                   : Global timeout for all tests. Adjust based on your expected test duration.
-- expect: timeout           : Timeout for expect() assertions
+- expect: timeout           : Timeout for expect() assertions.
 - projects: use: viewport   : Set the screen size accordingly for your tests (e.g., `{ width: 1280, height: 720 }`).
-- screenshot                : Choose when to capture screenshots ('on', 'off', or 'only-on-failure')
-- video                     : Define when to record test videos. ('on', 'off', 'retain-on-failure', or 'on-first-retry')
+- screenshot                : Choose when to capture screenshots ('on', 'off', or 'only-on-failure').
+- video                     : Define when to record test videos. ('on', 'off', 'retain-on-failure', or 'on-first-retry').
+- environments/currentEnv   : Adjust environments accordingly.
+
+## Environment .env file
+- .env file contains the main/home page URLs of each environment. (Local, Testing or Production). Configuration is currently set to default "production". Update accordingly.
 
 ## Reporting
 Playwright supports multiple reporters for test results. Configuration can be changed under playwright.config.ts
