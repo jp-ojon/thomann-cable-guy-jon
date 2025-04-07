@@ -21,8 +21,8 @@ Jon Paulo Ojon
 
 ## Installation
 1. Clone the repository and go to project directory
-- git clone https://github.com/jp-ojon/hiring_SeniorQACodeChallenge_Private.git
-- change directory to playwright-tests folder
+- git clone https://github.com/jp-ojon/thomann-cable-guy-jon.git
+- change root directory folder
 
 2. Install the dependencies:
 - npm install
