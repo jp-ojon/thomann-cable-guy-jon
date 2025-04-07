@@ -1,0 +1,11 @@
+[
+    {
+        "mainMenuItem": "Cableguy",
+        "cableBeginningCableType": "Optical cable",
+        "cableBeginningPlugType": "TOSlink male",
+        "cableEndCableType": "All cable types",
+        "cableEndPlugType": "TOSlink Mini male",
+        "manufacturerBrand": "pro snake",
+		"productName": "pro snake TPO 5 TO"
+    }
+]
