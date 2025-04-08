@@ -49,11 +49,43 @@
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
         "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Projects/thomann-cable-guy-jon/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Projects/thomann-cable-guy-jon/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Projects/thomann-cable-guy-jon/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Projects/thomann-cable-guy-jon/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
       }
     ],
     "shard": null,
     "updateSnapshots": "missing",
-    "updateSourceMethod": "3way",
+    "updateSourceMethod": "patch",
     "version": "1.51.1",
     "workers": 8,
     "webServer": null
@@ -81,105 +113,102 @@
                   "timeout": 60000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
                   "results": [
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 19051,
+                      "duration": 30967,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "Clicked on Cable Type: Loudspeaker\n"
+                          "text": "Clicked on Cable Type: Load cable\n"
                         },
                         {
-                          "text": "Clicked on Plug Type: Speaker Twist 2-pin female\n"
+                          "text": "Clicked on Plug Type: Mains plug CEE 32A 5-pin male\n"
                         },
                         {
                           "text": "Total Manufacturer Brands available for selection: 120\n"
                         },
                         {
-                          "text": "Clicked on Cable Type: Loudspeaker\n"
+                          "text": "Clicked on Cable Type: Load cable\n"
                         },
                         {
-                          "text": "Clicked on Plug Type: Speaker Twist 2-pin female\n"
+                          "text": "Clicked on Plug Type: Mains plug CEE 32A 5-pin female\n"
                         },
                         {
-                          "text": "Total Manufacturer Brands available for selection: 10\n"
+                          "text": "Total Manufacturer Brands available for selection: 1\n"
                         },
                         {
-                          "text": "\u001b[33m10\u001b[39m\n"
+                          "text": "\u001b[33m1\u001b[39m\n"
                         },
                         {
-                          "text": "\u001b[33m10\u001b[39m\n"
+                          "text": "\u001b[33m1\u001b[39m\n"
                         },
                         {
-                          "text": "\u001b[33m10\u001b[39m\n"
+                          "text": "\u001b[33m1\u001b[39m\n"
                         },
                         {
-                          "text": "\u001b[33m10\u001b[39m\n"
+                          "text": "\u001b[33m1\u001b[39m\n"
                         },
                         {
-                          "text": "\u001b[33m10\u001b[39m\n"
+                          "text": "\u001b[33m1\u001b[39m\n"
                         },
                         {
-                          "text": "\u001b[33m10\u001b[39m\n"
+                          "text": "\u001b[33m1\u001b[39m\n"
                         },
                         {
-                          "text": "\u001b[33m10\u001b[39m\n"
+                          "text": "\u001b[33m1\u001b[39m\n"
                         },
                         {
-                          "text": "\u001b[33m10\u001b[39m\n"
+                          "text": "\u001b[33m1\u001b[39m\n"
                         },
                         {
-                          "text": "\u001b[33m10\u001b[39m\n"
+                          "text": "\u001b[33m1\u001b[39m\n"
                         },
                         {
-                          "text": "\u001b[33m10\u001b[39m\n"
+                          "text": "\u001b[33m1\u001b[39m\n"
                         },
                         {
-                          "text": "\u001b[33m10\u001b[39m\n"
+                          "text": "\u001b[33m1\u001b[39m\n"
                         },
                         {
-                          "text": "Count has been stable at 10 for 5000ms, continue execution\n"
+                          "text": "Count has been stable at 1 for 5000ms, continue execution\n"
                         },
                         {
-                          "text": "Clicked on Manufacturer Brand: Turbosound\n"
+                          "text": "Clicked on Manufacturer Brand: Stairville\n"
                         },
                         {
-                          "text": "Clicked on Manufacturer Brand Count: 1\n"
+                          "text": "Clicked on Manufacturer Brand Count: 5\n"
                         },
                         {
-                          "text": "Checking count, actual: 25, expected: 1\n"
+                          "text": "Checking count, actual: 5, expected: 5\n"
                         },
                         {
-                          "text": "Checking count, actual: 1, expected: 1\n"
+                          "text": "Clicked on Product Entry: Stairville CEE Cable 32A 6,0mm² 5m Grip\n14\nWith PCE grip connector\nHeavy rubber hose cable H07RN-F 5 G 6.0 mm²\n5-Pole\n\n"
                         },
                         {
-                          "text": "Clicked on Product Entry: Turbosound TSPK-1.5-8M\n4\nCross section: 1,5 mm²\nLength: Approximately 8 m\nTwo-core\n"
+                          "text": "Href: stairville_cee_cable_32a_60mm_5m_grip.htm\n"
                         },
                         {
-                          "text": "Href: turbosound_tspk_1.5_8m.htm\n"
+                          "text": "Product page main product title: Stairville CEE Cable 32A 6,0mm² 5m Grip\n"
                         },
                         {
-                          "text": "Product page main product title: Turbosound TSPK-1.5-8M\n"
-                        },
-                        {
-                          "text": "Shopping Basket notification message: Item Turbosound TSPK-1.5-8M is now in the shopping basket.\n"
+                          "text": "Shopping Basket notification message: Item Stairville CEE Cable 32A 6,0mm² 5m Grip is now in the shopping basket.\n\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-04-07T12:12:07.430Z",
+                      "startTime": "2025-04-07T12:40:47.780Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "c75d6d6d16c23008489f-df5eeded5db1f1851d02",
+              "id": "c75d6d6d16c23008489f-c2864b92fc9a2b19b1dc",
               "file": "cables-and-connectors/cableguy-filtering-and-add-to-cart.spec.ts",
               "line": 27,
               "column": 9
@@ -191,8 +220,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-04-07T12:12:05.735Z",
-    "duration": 21556.427,
+    "startTime": "2025-04-07T12:40:46.950Z",
+    "duration": 32502.817,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
