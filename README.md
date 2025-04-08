@@ -66,7 +66,7 @@ Playwright supports multiple reporters for test results. Configuration can be ch
 - npx playwright show-report
 
 ## Recommendations
-- **Note:** It is not recommended to use npx run test:all and run all tests across all browsers in parallel. Please run test for chromium, firefox and webkit separately to avoid flakiness, problems with shared authentication cookies, inconsistent browser behaviours, insufficient resources to support the run, etc.
+- **Note:** It is not recommended to use `npx run test:all` and run all tests across all browsers in parallel. Please run test for chromium, firefox and webkit separately to avoid flakiness, problems with shared authentication cookies, inconsistent browser behaviours, insufficient resources to support the run, etc.
 - **Resource Management:** Consider running tests in individual browsers to manage resources effectively and reduce flakiness.
 - **Debugging:** If encountering issues, review logs and screenshots to diagnose problems. Adjust test cases if needed to handle browser-specific behaviors. You can enable `headless: false` in the configuration file or set `DEBUG=pw:api` to see Playwright's internal actions during test execution.
 - Example: DEBUG=pw:api npm run test:chromium
